@@ -1,0 +1,23 @@
+<html>
+  <head>
+	<title>Backbone.js tests</title>
+	<link rel="stylesheet" href="js/lib/mocha.css" />
+	<script src="js/lib/mocha.js"> </script>
+	<script src="js/lib/chai.js"> </script>
+	<script src="js/lib/sinon.js"> </script>
+
+	<script>
+	  var expect = chai.expect;
+	  mocha.setup("bdd");
+
+	  window.onload = function(){
+	  	mocha.run();
+	  };
+	</script>
+
+	<script src="js/spec/hello.spec.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+  </body>
+</html>
