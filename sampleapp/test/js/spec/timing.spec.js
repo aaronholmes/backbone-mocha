@@ -23,6 +23,6 @@ describe("Test timing", function(){
 		setTimeout(function(){
 			expect("hi").to.equal("hi");
 			done();
-		},400);
+		},2001);
 	});
 });
